@@ -1,0 +1,39 @@
+Yeast Dataset Classification Analysis
+A machine learning project that performs multi-class classification on the yeast protein localization dataset using Random Forest algorithm with comprehensive data analysis and visualization.
+Overview
+This project analyzes the yeast protein dataset from Kaggle to predict protein localization sites based on various cellular features. It implements a complete machine learning pipeline including data preprocessing, model training, evaluation, and visualization.
+Features
+
+Data Loading & Exploration: Automated dataset loading from Kaggle with initial exploratory analysis
+Data Preprocessing:
+
+Label encoding for multi-class targets
+Feature scaling using StandardScaler
+Stratified train-test split for balanced class representation
+
+
+Model Training: Random Forest Classifier with 100 estimators
+Model Evaluation:
+
+Accuracy scoring
+Detailed classification reports
+5-fold cross-validation
+Confusion matrix analysis
+
+
+Visualizations (6-panel comprehensive analysis):
+
+Feature importance ranking
+Confusion matrix heatmap
+Class distribution bar chart
+PCA visualization (2D projection)
+Feature correlation heatmap
+Performance metrics comparison
+
+Requirements
+kagglehub
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
